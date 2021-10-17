@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(image/images.jfif);
+    background-size: 280px;
+    background-position: center;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.register{
+    background-color:white;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px blue;
+}
+form#register {
+        margin: 20px;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input#name{
+    width: 300px;
+    
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300px;
+    border: none;
+    border-radius: 3px;
+    background-color:yellowgreen;
+    cursor: pointer;
+    color: white;
+    border: 1px solid;
+
+}
