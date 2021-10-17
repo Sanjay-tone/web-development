@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome to spotnack</title>
+    </head>
+    <body>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th colspan="6">TIME TABLE</th>
+            </tr>
+                <tr>
+                    <th rowspan="6">HOURS</th>
+                    <th>MON</th>
+                    <th>TUE</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                </tr>
+      
+                <tr>
+                    <td>SCIENCE</td>
+                    <td>MATHS</td>
+                    <td>SCIENCE</td>
+                    <td>MATHS</td>
+                    <td>ARTS</td>
+                    
+                </tr> 
+                <tr>
+                    <td>SOCIAL</td>
+                    <td>HISTORY</td>
+                    <td>ENGLISH</td>
+                    <td>MATHS</td>
+                    <td>ARTS</td>
+                    
+                </tr> 
+                <Tr>
+                    <th colspan="5" > LUNCH</th>
+                </Tr>
+                <tr>
+                    <td>SOCIAL</td>
+                    <td>HISTORY</td>
+                    <td>SCIENCE</td>
+                    <td>TAMIL</td>
+                    <td>ARTS</td>
+                    
+                </tr> 
+                <tr>
+                    <td>SCIENCE</td>
+                    <td>TAMIL</td>
+                    <td>ENGLISH</td>
+                    <td>PET</td>
+                    <td>ARTS</td>
+                    
+                </tr> 
+        
+            
+        </table>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        NAME:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="NAME" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        password:
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Password" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER
+                    </td>
+                    <Td>
+                        <input type="radio" name="GENDER">MALE
+                        <input type="radio" name="GENDER">FEMALE 
+                    </Td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
