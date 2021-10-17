@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:url(img/photo-1472803828399-39d4ac53c6e5.jfif);
+    background-position: center;
+    background-size: cover;
+    
+    
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background:white;
+
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+
+}
+.menu-bar ul li
+{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover
+{
+    background:red;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 10px;
+}
+.sub-menu
+{
+    display: none;
+}
+ .menu-bar ul li:hover .sub-menu
+ {
+     display: block;
+     position: absolute;
+     background: rosybrown;
+     margin-top: 15px;
+     margin-left: -15px;
+ }
+ .menu-bar ul li:hover .sub-menu ul
+ {
+     display: block;
+     margin: 10px;
+ }
+ .menu-bar ul li:hover .sub-menu ul li
+ {
+     width: 150px;
+     padding: 10px;
+     border-bottom: 1px dotted white;
+     border-radius: 0;
+     text-align: left;
+     
+ }
+ .menu-bar ul li:hover .sub-menu ul li:last-child
+ {
+     border-bottom: none;
+ }
+ .menu-bar ul li:hover .sub-menu ul li a:hover
+ 
+ {
+     color: white;
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1opx;
+    color: white;
+    font-style: normal;
+    padding-top: 30px;
+    
+}
+img{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
